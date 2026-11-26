@@ -1,0 +1,25 @@
+{
+  "name": "flaslight",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reconstructed modular source for the flaslight (shapescape_bewe) Minecraft Bedrock scripting mod, de-bundled from the original esbuild output.",
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  },
+  "peerDependencies": {
+    "@minecraft/server": "*",
+    "@minecraft/server-ui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@minecraft/server": {
+      "optional": true
+    },
+    "@minecraft/server-ui": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  }
+}

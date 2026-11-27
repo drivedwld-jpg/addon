@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "flashlight:flashlight",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/flashlight",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.flashlight"
+      },
+      "animations": {
+        "hold_first_person_main": "animation.flashlight.hold_first_person_main",
+        "hold_first_person_off": "animation.flashlight.hold_first_person_off",
+        "hold_third_person_main": "animation.flashlight.hold_third_person_main",
+        "hold_third_person_off": "animation.flashlight.hold_third_person_off",
+        "first_person_ans_main": "animation.flashlight.ans.first_person_main",
+        "first_person_ans_off": "animation.flashlight.ans.first_person_off"
+      },
+      "scripts": {
+        "pre_animation": [
+          "v.actions_and_stuff = c.owning_entity -> v.actions_and_stuff;"
+        ],
+        "parent_setup": "c.item_slot == 'main_hand' ? { v.oreville_mainhand_visible = 1; v.oreville_mainhand_hold_up = 1; v.oreville_mainhand_custom_pos = 1; }; c.item_slot == 'off_hand' ? { v.oreville_offhand_visible = 1; v.oreville_offhand_hold_up = 1; v.oreville_offhand_custom_pos = 1; };",
+        "animate": [
+          {
+            "first_person_ans_main": "c.is_first_person && v.actions_and_stuff && c.item_slot == 'main_hand'"
+          },
+          {
+            "first_person_ans_off": "c.is_first_person && v.actions_and_stuff && c.item_slot != 'main_hand'"
+          },
+          {
+            "hold_first_person_main": "c.is_first_person && !v.actions_and_stuff && c.item_slot == 'main_hand'"
+          },
+          {
+            "hold_first_person_off": "c.is_first_person && !v.actions_and_stuff && c.item_slot != 'main_hand'"
+          },
+          {
+            "hold_third_person_main": "!c.is_first_person && c.item_slot == 'main_hand'"
+          },
+          {
+            "hold_third_person_off": "!c.is_first_person && c.item_slot != 'main_hand'"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

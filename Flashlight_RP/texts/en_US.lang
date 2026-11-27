@@ -1,0 +1,17 @@
+pack.name=3D Flashlight & Power Grid RP [BETA v2.0.0-beta.3]
+pack.description=BETA v2.0.0-beta.3: Rechargeable 3D Flashlight, Cone Spotlights, Animated Fuel/Solar/Wind/Water Generators, 3D Cables & Wire Spool.
+item.flashlight:flashlight.name=Tactical Flashlight §a(ON)
+item.flashlight:flashlight_off.name=Tactical Flashlight §7(OFF)
+item.flashlight:wire_spool.name=Copper Wire Spool §e(Power Linker)
+tile.flashlight:standing_spotlight.name=Standing Construction Spotlight §7(Tripod)
+tile.flashlight:ground_spotlight.name=Ground Construction Spotlight §7(Portable)
+tile.flashlight:fuel_generator.name=Burner Fuel Generator §e(Starter Tier - 300W)
+tile.flashlight:solar_panel.name=Solar Panel Generator §b(Next Tier - 200W)
+tile.flashlight:wind_turbine.name=Wind Turbine Generator §b(Next Tier - 300-400W)
+tile.flashlight:water_turbine.name=Hydro Water Turbine §b(Next Tier - 300-400W)
+tile.flashlight:power_cable.name=Insulated Power Cable §7(6-Way Conduit)
+entity.flashlight:wind_rotor.name=Wind Turbine Rotor
+entity.flashlight:water_rotor.name=Water Turbine Rotor
+item.flashlight:grid_configurator.name=Power Grid Configurator §b(Settings UI)
+tile.flashlight:power_input_port.name=Generator Power Input Port §6(Cable Coupler)
+tile.flashlight:electric_socket_hub.name=Electric Socket Hub §e(Wire Outlet Box)

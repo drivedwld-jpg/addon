@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "flashlight:flashlight_off",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": false,
+      "minecraft:allow_off_hand": true,
+      "minecraft:icon": {
+        "textures": {
+          "default": "flashlight_off_icon"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.flashlight:flashlight_off.name"
+      },
+      "flashlight:toggle": {}
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_pack_name": "Flashlight_RP",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "flashlight_spotlight_on": {
+      "textures": "textures/blocks/spotlight_on"
+    },
+    "flashlight_spotlight_off": {
+      "textures": "textures/blocks/spotlight_off"
+    },
+    "flashlight_fuel_gen_off": {
+      "textures": "textures/blocks/fuel_gen_off"
+    },
+    "flashlight_fuel_gen_active": {
+      "textures": "textures/blocks/fuel_gen_active"
+    },
+    "flashlight_solar_off": {
+      "textures": "textures/blocks/solar_panel_off"
+    },
+    "flashlight_solar_active": {
+      "textures": "textures/blocks/solar_panel_active"
+    },
+    "flashlight_wind_turbine": {
+      "textures": "textures/blocks/wind_turbine"
+    },
+    "flashlight_water_turbine": {
+      "textures": "textures/blocks/water_turbine"
+    },
+    "flashlight_cable_off": {
+      "textures": "textures/blocks/power_cable_off"
+    },
+    "flashlight_cable_on": {
+      "textures": "textures/blocks/power_cable_on"
+    },
+    "flashlight_input_port_off": {
+      "textures": "textures/blocks/input_port_off"
+    },
+    "flashlight_input_port_active": {
+      "textures": "textures/blocks/input_port_active"
+    },
+    "flashlight_socket_hub_off": {
+      "textures": "textures/blocks/socket_hub_off"
+    },
+    "flashlight_socket_hub_active": {
+      "textures": "textures/blocks/socket_hub_active"
+    }
+  }
+}

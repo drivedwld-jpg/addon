@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "flashlight_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "flashlight_icon": {
+      "textures": "textures/items/flashlight"
+    },
+    "flashlight_off_icon": {
+      "textures": "textures/items/flashlight_off"
+    },
+    "flashlight_wire_spool": {
+      "textures": "textures/items/wire_spool"
+    },
+    "flashlight_grid_configurator": {
+      "textures": "textures/items/grid_configurator"
+    }
+  }
+}

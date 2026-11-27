@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "3D Flashlight & Power Grid RP [BETA]",
+    "description": "v2.0.0-beta.3 (BETA): Input Port, Electric Socket Hub, Auto-Hidden Cable Plugs, Animated Generators & Cone Spotlights.",
+    "uuid": "5a7d9e2b-1c4f-48b3-8e61-2f9c4d1b7e33",
+    "version": [
+      2,
+      0,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "description": "3D Flashlight Resources",
+      "type": "resources",
+      "uuid": "9b2f4c8d-3e5a-47c6-a914-6e8b1d3f5c44",
+      "version": [
+        2,
+        0,
+        2
+      ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "actions_and_stuff",
+      "name": "Actions & Stuff Mode (Compatible with Actions & Stuff)",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "vanilla",
+      "name": "Default / Vanilla Mode (Standard Bedrock)",
+      "memory_tier": 0
+    }
+  ]
+}

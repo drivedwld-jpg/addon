@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "3D Flashlight & Power Grid BP [BETA]",
+    "description": "v2.0.0-beta.3 (BETA): Input Port, Electric Socket Hub, Auto-Hidden Cable Plugs, Grid Configurator & Animated Generators.",
+    "uuid": "8f4b2c1a-7d3e-49a1-9b52-1e6d8c0f3a11",
+    "version": [
+      2,
+      0,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "description": "3D Flashlight Data",
+      "type": "data",
+      "uuid": "3c9e1d54-6a2b-4f80-b123-9d4e7f2a8b22",
+      "version": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "description": "3D Flashlight Dynamic Beam & Toggle Script",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "7d1a6f3e-8b24-4c95-a470-5c3e9b1d2f55",
+      "version": [
+        2,
+        0,
+        2
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5a7d9e2b-1c4f-48b3-8e61-2f9c4d1b7e33",
+      "version": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

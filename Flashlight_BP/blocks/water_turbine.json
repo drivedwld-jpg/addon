@@ -1,0 +1,105 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "flashlight:water_turbine",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "flashlight:active": [
+          false,
+          true
+        ],
+        "flashlight:pf": [
+          false,
+          true
+        ],
+        "flashlight:pb": [
+          false,
+          true
+        ],
+        "flashlight:pr": [
+          false,
+          true
+        ],
+        "flashlight:pl": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.water_turbine",
+        "bone_visibility": {
+          "static_wheel": "!q.block_state('flashlight:active')",
+          "plug_front": "q.block_state('flashlight:pf')",
+          "plug_back": "q.block_state('flashlight:pb')",
+          "plug_right": "q.block_state('flashlight:pr')",
+          "plug_left": "q.block_state('flashlight:pl')"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.water_turbine_item",
+        "material_instances": {
+          "*": {
+            "texture": "flashlight_water_turbine",
+            "render_method": "alpha_test",
+            "ambient_occlusion": 1.0,
+            "face_dimming": true
+          }
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "flashlight_water_turbine",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 1.0,
+          "face_dimming": true
+        }
+      },
+      "minecraft:light_emission": 0,
+      "minecraft:light_dampening": 0,
+      "minecraft:collision_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6.0
+      },
+      "flashlight:generator": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('flashlight:active')",
+        "components": {
+          "minecraft:light_emission": 7
+        }
+      }
+    ]
+  }
+}

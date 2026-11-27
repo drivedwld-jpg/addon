@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "flashlight:standing_spotlight": {
+    "sound": "lantern"
+  },
+  "flashlight:ground_spotlight": {
+    "sound": "lantern"
+  },
+  "flashlight:fuel_generator": {
+    "sound": "anvil"
+  },
+  "flashlight:solar_panel": {
+    "sound": "metal"
+  },
+  "flashlight:wind_turbine": {
+    "sound": "metal"
+  },
+  "flashlight:water_turbine": {
+    "sound": "metal"
+  },
+  "flashlight:power_cable": {
+    "sound": "copper"
+  },
+  "flashlight:power_input_port": {
+    "sound": "copper"
+  },
+  "flashlight:electric_socket_hub": {
+    "sound": "metal"
+  }
+}

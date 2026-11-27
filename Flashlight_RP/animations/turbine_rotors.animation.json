@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.flashlight.wind_rotor.spin": {
+      "loop": true,
+      "bones": {
+        "rotor_blades": {
+          "rotation": [
+            0.0,
+            0.0,
+            "q.life_time * 135.0"
+          ]
+        },
+        "root": {
+          "rotation": [
+            0.0,
+            "-q.body_y_rotation + 180.0 + q.property('flashlight:facing_idx') * 90.0",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.flashlight.water_rotor.spin": {
+      "loop": true,
+      "bones": {
+        "paddle_wheel": {
+          "rotation": [
+            0.0,
+            "q.life_time * 145.0",
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

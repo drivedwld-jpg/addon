@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "flashlight:grid_configurator",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "flashlight_grid_configurator",
+      "minecraft:display_name": {
+        "value": "item.flashlight:grid_configurator.name"
+      },
+      "flashlight:config_tool": {}
+    }
+  }
+}

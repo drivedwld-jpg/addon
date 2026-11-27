@@ -1,0 +1,107 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.flashlight.hold_first_person_main": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            1.116,
+            -2.64,
+            0.74
+          ],
+          "rotation": [
+            78.07,
+            -56.88,
+            53.29
+          ]
+        }
+      }
+    },
+    "animation.flashlight.hold_first_person_off": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            -1.116,
+            -2.64,
+            0.74
+          ],
+          "rotation": [
+            78.07,
+            56.88,
+            -53.29
+          ]
+        }
+      }
+    },
+    "animation.flashlight.hold_third_person_main": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            -0.052,
+            -0.958,
+            -0.842
+          ],
+          "rotation": [
+            80.04,
+            0.87,
+            4.92
+          ]
+        }
+      }
+    },
+    "animation.flashlight.hold_third_person_off": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            0.052,
+            -0.958,
+            -0.842
+          ],
+          "rotation": [
+            80.04,
+            -0.87,
+            -4.92
+          ]
+        }
+      }
+    },
+    "animation.flashlight.ans.first_person_main": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            0.0,
+            -1.1,
+            -0.75
+          ],
+          "rotation": [
+            104.0,
+            -3.5,
+            -14.0
+          ]
+        }
+      }
+    },
+    "animation.flashlight.ans.first_person_off": {
+      "loop": true,
+      "bones": {
+        "flashlight": {
+          "position": [
+            0.0,
+            -1.1,
+            -0.75
+          ],
+          "rotation": [
+            104.0,
+            3.5,
+            14.0
+          ]
+        }
+      }
+    }
+  }
+}
